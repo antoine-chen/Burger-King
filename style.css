@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(images/img1.webp); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.navbar {
+    position: fixed;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+}
+ul {
+    display: flex;
+    gap: 40px;
+}
+.bouton .actionBouton {
+    background-color: rgb(146, 31, 50);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(146, 31, 50);
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* ----------------DEUXIEME PARTIE-------------------------  */
+
+.titre {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Anton", serif;
+    font-weight: 400;
+}
+
+.titre p {
+    font-weight:500;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.actualite {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.actualiteBox {
+    height: 220px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.actualiteBox p {
+    position: relative;
+    top: 210px;
+    font-family: "Anton", serif;
+    font-weight: 400;
+}
+
+.desserts {
+    background-image: url(images/img2.webp);
+}
+
+.savoirPlus {
+    background-image: url(images/img3.webp);
+}
+
+.moment {
+    background-image: url(images/img4.webp);
+}
+
+
+/* ----------------TROISIEME PARTIE-------------------------  */
+
+.fidele {
+    margin-top: 150px;
+    display: grid;
+    background-image: url(images/img8.png);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+.boxFi {
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.fideleBox1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+.fideleBox2 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+}
+.fideleBox3 {
+    grid-column: 6 / 9;
+    grid-row: 1 / 4;
+}
+
+/*-------------QUATRIEME PARTIE----------------------- */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight :bolder;
+    margin-top: 100px;
+}
+.faim {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.faimBox p {
+    margin: 5px 10px;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size:larger;
+}
+
+.faimBox {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    background-color:beige;
+    box-shadow: 3px 2px 3px 0px;
+
+}
+.fBox1 {
+    background-image: url(images/img9.webp);
+}
+.fBox2 {
+    background-image: url(images/img10.webp);
+}
+.fBox3 {
+    background-image: url(images/img11.webp);
+    width: 250px;
+    height: 250px;
+}
+.fBox4 {
+    background-image: url(images/img12.webp);
+}
+
+/*------------- FOOTER --------------------------------- */
+
+footer {
+    background-color:black ;
+    color: white; 
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.telechargement {
+    display: flex;
+    justify-content: center;
+}
+
+/* .boxTele {
+    background-size: cover;
+    background-position: center;
+    
+}
+.appstore {
+    background-image: url(images/app_store.pnga);
+}
+.playstore {
+    background-image: url(images/play_store.png);
+} */
+
+.footerTitre {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight:400;
+}
+.infos {
+    display: flex;
+    gap: 200px;
+    margin: 100px;
+}
+
+.boxFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
